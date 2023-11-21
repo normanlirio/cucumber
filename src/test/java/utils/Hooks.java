@@ -13,9 +13,9 @@ public class Hooks {
     }
 
 
-//    @After
-//    public void tearDown() {
-//        DriverHelper.webDriver.close();
-//    }
+    @After
+    public void tearDown() {
+        DriverHelper.webDriver.close();
+    }
 }
 

@@ -57,7 +57,7 @@
                         <userEmail>${testUsername}</userEmail>
                         <userPassword>${testUserPassword}</userPassword>
                         <env.variable>${testEnvVariables}</env.variable>
-                        <webDriver>${driver}</webDriver>
+                        <webDriver>${testDriver}</webDriver>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>

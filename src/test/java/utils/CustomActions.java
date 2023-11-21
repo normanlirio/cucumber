@@ -4,6 +4,9 @@ import org.openqa.selenium.WebElement;
 
 public class CustomActions {
 
+    public void clearField(WebElement element) {
+        element.clear();
+    }
     public void click(WebElement element) {
         element.click();
     }
